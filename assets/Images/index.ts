@@ -1,0 +1,16 @@
+export const dashboardTabIcon = require('./dashboard_tab_icon.png');
+export const mediaLibraryTabIcon = require('./media_library_tab_icon.png');
+export const moreTabIcon = require('./more_tab_icon.png');
+export const watchTabIcon = require('./watch_tab_icon.png');
+export const searchIcon = require('./search.png');
+export const closeIcon = require('./close.png');
+export const moreIcon = require('./more_icon.png');
+export const backArrow = require('./back_arrow.png');
+export const playButtonWhite = require('./play_button_white.png');
+export const seatMapImage = require('./seat_map_image.png');
+export const selectedSeat = require('./selected_seat.png');
+export const frontScreenLine = require('./front_screen_line.png');
+export const regularSeat = require('./regular_seat.png');
+export const notAvailableSeal = require('./not_available_seat.png');
+export const vipSeat = require('./vip_seat.png');
+export const crossDark = require('./cross_dark.png');

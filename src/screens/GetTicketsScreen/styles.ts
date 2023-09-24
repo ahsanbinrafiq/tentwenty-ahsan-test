@@ -1,0 +1,105 @@
+import {StyleSheet} from 'react-native';
+
+export default StyleSheet.create({
+  mainContainer: {
+    flex: 1,
+    backgroundColor: '#ffffff',
+  },
+  iconStyle: {
+    width: 30,
+    height: 30,
+    tintColor: '#000000',
+  },
+  searchIconTouchable: {
+    width: 40,
+    height: 40,
+  },
+  watchTextStyle: {
+    color: '#202C43',
+    fontSize: 16,
+    textAlign: 'center',
+  },
+  timeStampTextStyle: {
+    color: '#61C3F2',
+    fontSize: 12,
+    textAlign: 'center',
+  },
+  headerStyle: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    padding: 20,
+  },
+  listMainView: {
+    backgroundColor: '#F6F6FA',
+    flex: 1,
+    justifyContent: 'center',
+    paddingStart: 20,
+  },
+  dateHeadingStyle: {
+    color: '#202C43',
+    fontSize: 16,
+    fontWeight: '500',
+    marginBottom: 10,
+  },
+  renderDateItemView: {
+    height: 32,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginEnd: 10,
+    paddingHorizontal: 10,
+    borderRadius: 10,
+  },
+  renderSeatMapView: {flexDirection: 'column', marginEnd: 10},
+  dateTextView: {flexDirection: 'row'},
+  timeTextStyle: {color: '#202C43', fontSize: 12, fontWeight: '500'},
+  cinemaHalTextStyle: {
+    color: '#8F8F8F',
+    fontSize: 12,
+    fontWeight: '400',
+    marginStart: 5,
+  },
+  seatMapView: {
+    width: 240,
+    height: 140,
+    borderRadius: 10,
+    borderWidth: 1,
+    marginVertical: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  seatMapImage: {width: 140, height: 110},
+  fromText: {
+    color: '#8F8F8F',
+    fontSize: 12,
+    fontWeight: '400',
+  },
+  priceText: {
+    color: '#202C43',
+    fontSize: 12,
+    fontWeight: '500',
+    marginStart: 5,
+  },
+  orText: {
+    color: '#8F8F8F',
+    fontSize: 12,
+    fontWeight: '400',
+    marginStart: 5,
+  },
+  dateMainView: {flexDirection: 'column'},
+  seatMapListMainView: {flexDirection: 'column', marginTop: 30},
+  bottomMainView: {
+    backgroundColor: '#F6F6FA',
+    flex: 0.25,
+    justifyContent: 'flex-end',
+  },
+  bottomButtonMainStyle: {
+    backgroundColor: '#61C3F2',
+    height: 50,
+    marginHorizontal: 25,
+    marginBottom: 25,
+    borderRadius: 10,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  buttonTextStyle: {color: '#ffffff', fontSize: 14, fontWeight: '600'},
+});
